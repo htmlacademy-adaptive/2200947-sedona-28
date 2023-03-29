@@ -1,7 +1,7 @@
 # Личный проект «Седона» 
 
 * Студент: [Николай Светличный](https://up.htmlacademy.ru/adaptive/28/user/2200947).
-* Наставник: `[Наталья Рыжова](https://htmlacademy.ru/profile/id418965)`.
+* Наставник: [Наталья Рыжова](https://htmlacademy.ru/profile/id418965).
 
 ---
 
