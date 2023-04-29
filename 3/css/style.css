@@ -1,0 +1,330 @@
+.page__body {
+  margin: 0;
+}
+.main-header {
+  min-height: 56px;
+  text-align: center;
+}
+.site-list {
+  padding: 0;
+  margin: 0;
+}
+.site-list__item {
+  list-style-type: none;
+  background-color: #81B3D2;
+  padding-top: 17px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+.site-list__link {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+}
+.hero-index {
+  background-color: #7270f4;
+  background-image: url(../../img/image-index/hero-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.hero__slogan {
+  display: block;
+  padding-top: 90px;
+  padding-bottom: 85px;
+  margin: 0 auto;
+  text-align: center;
+}
+@font-face {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/ptsans.woff") format("woff"), url("/source/fonts/ptsans.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/ptsansbold.woff") format("woff"), url("/source/fonts/ptsansbold.woff2") format("woff2");
+  font-display: swap;
+}
+.intro__title {
+  font-family: "PT Sans";
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+}
+.intro__discription {
+  font-family: "PT Sans";
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+}
+.advantages__item {
+  background-color: #81B3D2;
+}
+.advantages__items {
+  background-color: #EEEEEE;
+}
+.advantages__title {
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0;
+}
+.advantages__number {
+  display: block;
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0;
+}
+.advantages__description {
+  display: block;
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0;
+}
+.advantages__titles {
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+  margin: 0;
+}
+.advantages__numbers {
+  display: block;
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+  margin: 0;
+}
+.advantages__descriptions {
+  display: block;
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+  margin: 0;
+}
+.services__title {
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+  margin: 0;
+}
+.services__description {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+  margin: 0;
+}
+.services__item--house {
+  list-style-type: none;
+}
+.services__item--food {
+  list-style-type: none;
+}
+.services__item--gift {
+  list-style-type: none;
+}
+.advantages__image {
+  background-size: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.search-hotel__title {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+}
+.search-hotel__description {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+}
+.search-hotel__text-block {
+  display: flex;
+  flex-direction: column;
+}
+.search-hotel__button {
+  display: block;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  background-color: #81B3D2;
+  text-decoration: none;
+  margin: 0 auto;
+  padding: 16px 49px;
+  border: 0;
+}
+.map__img {
+  display: block;
+  margin: 0 auto;
+}
+.main-footer__wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 33px;
+  margin-bottom: 33px;
+  gap: 30px;
+}
+.main-footer__slogan {
+  font-family: "PT Sans";
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  margin: 0 auto;
+}
+.social__list {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+.social__item {
+  list-style-type: none;
+}
+.social__link {
+  text-decoration: none;
+  padding: 12px;
+  background-color: #81B3D2;
+}
+.main-footer__copyright-logo {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  align-self: center;
+  margin: 0 auto;
+  text-decoration: none;
+}
+.main-footer__copyright-text {
+  font-family: "PT Sans";
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #000000;
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  text-transform: uppercase;
+}
+.hero-catalog__image {
+  background-color: #6962e2;
+  background-image: url(../../img/image-catalog/back-desktop.jpg);
+  background-repeat: no-repeat;
+}
+.text-block__title {
+  font-family: "PT Sans";
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+}
+.text-block__description {
+  font-family: "PT Sans";
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+}
+.photo-card__item {
+  list-style-type: none;
+}
+.photo-card__title {
+  font-family: "PT Sans";
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+}
+.photo-card__author {
+  font-family: "PT Sans";
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+}
+.like__number {
+  font-family: "PT Sans";
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */
