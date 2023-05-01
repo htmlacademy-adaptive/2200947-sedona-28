@@ -1,5 +1,16 @@
-.page__body {
-  margin: 0;
+@font-face {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/ptsans.woff") format("woff"), url("../fonts/ptsans.woff") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/ptsansbold.woff") format("woff"), url("../fonts/ptsansbold.woff2") format("woff2");
+  font-display: swap;
 }
 .main-header {
   min-height: 56px;
@@ -24,33 +35,6 @@
   text-transform: uppercase;
   color: #ffffff;
   text-decoration: none;
-}
-.hero-index {
-  background-color: #7270f4;
-  background-image: url(../../img/image-index/hero-mobile.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-.hero__slogan {
-  display: block;
-  padding-top: 90px;
-  padding-bottom: 85px;
-  margin: 0 auto;
-  text-align: center;
-}
-@font-face {
-  font-family: "PT Sans", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  src: url("../fonts/ptsans.woff") format("woff"), url("/source/fonts/ptsans.woff2") format("woff2");
-  font-display: swap;
-}
-@font-face {
-  font-family: "PT Sans", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  src: url("../fonts/ptsansbold.woff") format("woff"), url("/source/fonts/ptsansbold.woff2") format("woff2");
-  font-display: swap;
 }
 .intro__title {
   font-family: "PT Sans";
@@ -210,6 +194,7 @@
   font-weight: 700;
   font-size: 21px;
   line-height: 26px;
+  letter-spacing: normal;
   text-transform: uppercase;
   color: #ffffff;
   text-align: center;
@@ -239,19 +224,6 @@
   text-align: center;
   margin: 0 auto;
 }
-.social__list {
-  display: flex;
-  justify-content: center;
-  gap: 6px;
-}
-.social__item {
-  list-style-type: none;
-}
-.social__link {
-  text-decoration: none;
-  padding: 12px;
-  background-color: #81B3D2;
-}
 .main-footer__copyright-logo {
   display: flex;
   justify-content: center;
@@ -271,10 +243,31 @@
   padding-bottom: 7px;
   text-transform: uppercase;
 }
+.hero-index__image {
+  background-color: #7270f4;
+  background-image: url(../img/image-index/hero-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.hero-index__slogan {
+  display: block;
+  padding-top: 90px;
+  padding-bottom: 85px;
+  margin: 0 auto;
+  text-align: center;
+}
 .hero-catalog__image {
   background-color: #6962e2;
-  background-image: url(../../img/image-catalog/back-desktop.jpg);
+  background-image: url(../img/image-catalog/back-desktop.jpg);
   background-repeat: no-repeat;
+  background-size: 100%;
+}
+.hero-catalog__slogan {
+  display: block;
+  padding-top: 52px;
+  padding-bottom: 67px;
+  margin: 0 auto;
+  text-align: center;
 }
 .text-block__title {
   font-family: "PT Sans";
@@ -326,5 +319,18 @@
   text-align: center;
   margin: 0;
   text-transform: uppercase;
+}
+.social__list {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+.social__item {
+  list-style-type: none;
+}
+.social__link {
+  text-decoration: none;
+  padding: 12px;
+  background-color: #81B3D2;
 }
 /*# sourceMappingURL=style.css.map */
